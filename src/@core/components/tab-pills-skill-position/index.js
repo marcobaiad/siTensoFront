@@ -8,7 +8,8 @@ import { handleSetPositionsDevs, handleSetSkillsDevs } from '../../../redux/acti
 import PositionsTab from './Components/PositionsTab'
 import SkillTab from './Components/SkillTab'
 
-function PillsSkillPosition({ activeTab, toggle }) {
+function PillsSkillPosition({ activeTab, toggleTab }) {
+    console.log(`PillsSkillPosition ~ toggleTab`, toggleTab)
 
     const dispatch = useDispatch()
     const skills = useSelector(state => state.devs.skillsDevs)
@@ -33,7 +34,7 @@ function PillsSkillPosition({ activeTab, toggle }) {
                 <NavItem>
                     <NavLink
                         className={classnames({ active: activeTab === '1' })}
-                        onClick={() => { toggle('1') }}
+                        onClick={() => { toggleTab('1') }}
                     >
                         Posiciones
                     </NavLink>
@@ -41,7 +42,7 @@ function PillsSkillPosition({ activeTab, toggle }) {
                 <NavItem>
                     <NavLink
                         className={classnames({ active: activeTab === '2' })}
-                        onClick={() => { toggle('2') }}
+                        onClick={() => { toggleTab('2') }}
                     >
                         Lenguajes
                     </NavLink>

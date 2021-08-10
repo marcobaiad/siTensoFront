@@ -10988,9 +10988,9 @@ react-app-polyfill@^2.0.0:
     whatwg-fetch "^3.4.1"
 
 react-app-rewire-alias@1.5.2:
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/react-app-rewire-alias/-/react-app-rewire-alias-1.0.3.tgz#02a89295a033fe811c4082af2381ce6f37b5506b"
-  integrity sha512-rqeDpqPg07lY16MC1geOBtopEy5hQp5vGPh4xS6gyPyP+uVU1tgYagRyiwDfa6/QvlMU2RmmefIoT5kUpfzxjQ==
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/react-app-rewire-alias/-/react-app-rewire-alias-0.2.0.tgz#f18e35f9d1520772408068d29c58aeb35e60fe16"
+  integrity sha512-mXUbzD7TmlON/lnRKy9TIRaYCGGe8sm3arKezXG2SRTrZodTBC6/NFJcoS8y6SXSMNWM0fLDVj2pwkd6D5bm1Q==
 
 react-app-rewire-aliases@^0.2.0:
   version "0.2.0"
