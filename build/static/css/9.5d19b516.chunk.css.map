@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/@core/components/pagination/paginationcomponent.scss"],"names":[],"mappings":"AAAA,iBAAW,kBAAkB,CAAC,WAAW,CAAC,gBAAgB,uBAAmC,CAAnD,sBAAyC,UAAU","file":"9.5d19b516.chunk.css","sourcesContent":[".page-link{border-radius:100%;padding:3px}.page-link>span{color:#7367f0 !important;margin:2px}\n"]}
