@@ -9,7 +9,6 @@ import PositionsTab from './Components/PositionsTab'
 import SkillTab from './Components/SkillTab'
 
 function PillsSkillPosition({ activeTab, toggleTab }) {
-    console.log(`PillsSkillPosition ~ toggleTab`, toggleTab)
 
     const dispatch = useDispatch()
     const skills = useSelector(state => state.devs.skillsDevs)

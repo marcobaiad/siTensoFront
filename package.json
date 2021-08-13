@@ -2,6 +2,7 @@
   "name": "vuexy-react-admin-dashboard",
   "version": "1.0.0",
   "private": true,
+  "homepage": "https://learnprueba-1.000webhostapp.com/",
   "dependencies": {
     "@casl/ability": "5.2.2",
     "@casl/react": "2.1.1",
@@ -117,7 +118,6 @@
     "not dead",
     "not op_mini all"
   ],
-  "homepage": "",
   "main": ".eslintrc.js",
   "keywords": [],
   "author": "",
